@@ -1,0 +1,12 @@
+# .dockerignore
+
+# Git関連のファイル
+.git
+.gitignore
+
+# CDK関連の不要なファイル
+cdk.out
+node_modules
+
+# アプリのnode_modules (これが一番容量を食っている)
+app/node_modules
